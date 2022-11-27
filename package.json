@@ -2,7 +2,7 @@
   "name": "redux-basics",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yazeedmomani.github.io/redux-auth-code",
+  "homepage": "https://yazeedmomani.github.io/redux-auth",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.0",
     "@testing-library/jest-dom": "^5.11.9",
