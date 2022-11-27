@@ -8,19 +8,19 @@ const Counter = () => {
   const dispatcher = useDispatch();
 
   const addOneHandler = () => {
-    dispatcher(actions.increment());
+    dispatcher(actions.counter.increment());
   };
 
   const subOneHandler = () => {
-    dispatcher(actions.decrement());
+    dispatcher(actions.counter.decrement());
   };
 
   const addHandler = () => {
-    dispatcher(actions.increase(10));
+    dispatcher(actions.counter.increase(10));
   };
 
   const toggleCounterHandler = () => {
-    dispatcher(actions.toggle());
+    dispatcher(actions.counter.toggle());
   };
 
   return (
